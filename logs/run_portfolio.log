@@ -1,0 +1,16 @@
+[2025-08-06 18:16:37.900140] Portfolio construction log
+Tickers: MSFT, JNJ, WMT, KO, MCD, HD, PG, INTC, V, XOM
+Date Range: 2021-12-01 to 2025-07-01
+Monthly Observations: 42
+
+Equal-Weighted Portfolio:
+  Mean Monthly Return: 0.0074
+  Std Dev: 0.0416
+  Max Drawdown: -0.1484
+
+Value-Weighted Portfolio:
+  Mean Monthly Return: -306.8227
+  Std Dev: 3120.5317
+  Max Drawdown: -23251.6783
+========================================
+

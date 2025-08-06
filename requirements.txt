@@ -1,0 +1,17 @@
+yfinance
+pandas
+matplotlib
+pandas_market_calendars
+beautifulsoup4
+newspaper3k
+lxml
+lxml_html_clean
+nltk
+numpy
+pyarrow
+requests
+scikit-learn
+torch
+transformers
+selenium
+webdriver-manager
