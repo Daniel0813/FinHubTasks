@@ -1,0 +1,12 @@
+{
+  "num_articles": 80,
+  "max_token_length": 256,
+  "raw_text_stats": {
+    "avg_char_length": 931.9,
+    "avg_word_length": 111.3
+  },
+  "filtered_text_stats": {
+    "avg_char_length": 874.2,
+    "avg_word_length": 98.2
+  }
+}

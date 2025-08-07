@@ -1,0 +1,88 @@
+{
+  "pipeline_execution_summary": {
+    "ticker": "AAPL",
+    "execution_date": "2025-08-07T00:08:24.753824",
+    "data_collection": {
+      "articles_count": 80,
+      "price_points": 128,
+      "return_calculations": 127,
+      "date_range": {
+        "start": "2025-02-08 00:08:08.320036",
+        "end": "2025-08-07 00:08:08.320036"
+      }
+    },
+    "text_processing": {
+      "embedding_configurations": 4,
+      "pca_configurations": 0
+    },
+    "model_evaluation": {
+      "configurations_tested": 8,
+      "best_configuration": "raw_mean_pca",
+      "best_metrics": {
+        "mse": 0.00013098017509910353,
+        "r2": -0.18286567848239121,
+        "correlation": -0.01339898493588413,
+        "correlation_pvalue": 0.9592942497266881
+      },
+      "all_results": {
+        "raw_mean": {
+          "mse": 0.00013766973407445168,
+          "r2": -0.24327825397433944,
+          "correlation": -0.1212283054543637,
+          "correlation_pvalue": 0.6430199958818266
+        },
+        "raw_cls": {
+          "mse": 0.00018881498648983897,
+          "r2": -0.7051646704011434,
+          "correlation": -0.19922683808695635,
+          "correlation_pvalue": 0.4433200105579267
+        },
+        "filtered_mean": {
+          "mse": 0.00014987823803267822,
+          "r2": -0.35353173551745143,
+          "correlation": -0.20287391341345024,
+          "correlation_pvalue": 0.4348434474776536
+        },
+        "filtered_cls": {
+          "mse": 0.00020451859143419933,
+          "r2": -0.8469819744555596,
+          "correlation": -0.25464592838151673,
+          "correlation_pvalue": 0.3239630660602724
+        },
+        "raw_mean_pca": {
+          "mse": 0.00013098017509910353,
+          "r2": -0.18286567848239121,
+          "correlation": -0.01339898493588413,
+          "correlation_pvalue": 0.9592942497266881
+        },
+        "raw_cls_pca": {
+          "mse": 0.00014144522279013093,
+          "r2": -0.2773742232146883,
+          "correlation": 0.06024258244189989,
+          "correlation_pvalue": 0.8183445409747017
+        },
+        "filtered_mean_pca": {
+          "mse": 0.0001496511468111789,
+          "r2": -0.35148090292700074,
+          "correlation": -0.14540384489242913,
+          "correlation_pvalue": 0.5776477377674397
+        },
+        "filtered_cls_pca": {
+          "mse": 0.00018234216707120414,
+          "r2": -0.6467094429018339,
+          "correlation": -0.1171905384160766,
+          "correlation_pvalue": 0.6542011564390854
+        }
+      }
+    },
+    "file_generation": {
+      "Embedding files (.npy)": 12,
+      "PCA model files (.pkl)": 12,
+      "Dataset files (.parquet)": 9,
+      "Results files (.json)": 3,
+      "Plot files (.svg)": 3,
+      "CSV files": 4
+    },
+    "total_files_generated": 43
+  }
+}

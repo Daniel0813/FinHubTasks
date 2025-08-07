@@ -1,0 +1,690 @@
+2025-08-06 23:41:07,346 - INFO - ==================================================
+2025-08-06 23:41:07,347 - INFO - Starting FinHub Text Analysis Pipeline
+2025-08-06 23:41:07,347 - INFO - ==================================================
+2025-08-06 23:41:07,355 - INFO - Initialized TextAnalysisFinance for ticker: AAPL
+2025-08-06 23:41:07,355 - INFO - Base directory: C:\Users\Admin\Desktop\FinHubPortfolio
+2025-08-06 23:41:07,356 - INFO - Starting data collection pipeline
+2025-08-06 23:41:07,357 - INFO - Starting news scraping for AAPL
+2025-08-06 23:41:07,357 - INFO - Target: at least 80 articles from past 6 months
+2025-08-06 23:41:07,740 - ERROR - Error during news scraping: 404 Client Error: Not Found for url: https://finance.yahoo.com/quote/AAPL/news/
+2025-08-06 23:41:07,746 - ERROR - Failed to collect articles. Stopping pipeline.
+2025-08-06 23:44:18,154 - INFO - ==================================================
+2025-08-06 23:44:18,154 - INFO - Starting FinHub Text Analysis Pipeline
+2025-08-06 23:44:18,154 - INFO - ==================================================
+2025-08-06 23:44:18,156 - INFO - Initialized TextAnalysisFinance for ticker: AAPL
+2025-08-06 23:44:18,156 - INFO - Base directory: C:\Users\Admin\Desktop\FinHubPortfolio
+2025-08-06 23:44:18,157 - INFO - Starting data collection pipeline
+2025-08-06 23:44:18,157 - INFO - Starting news scraping for AAPL
+2025-08-06 23:44:18,157 - INFO - Target: at least 80 articles from past 6 months
+2025-08-06 23:44:18,157 - INFO - Trying URL: https://finance.yahoo.com/quote/AAPL/news/
+2025-08-06 23:44:18,607 - WARNING - Failed to access https://finance.yahoo.com/quote/AAPL/news/: 404
+2025-08-06 23:44:18,607 - INFO - Trying URL: https://finance.yahoo.com/quote/AAPL/news
+2025-08-06 23:44:18,926 - WARNING - Failed to access https://finance.yahoo.com/quote/AAPL/news: 404
+2025-08-06 23:44:18,926 - INFO - Trying URL: https://finance.yahoo.com/news/topic/aapl
+2025-08-06 23:44:19,264 - WARNING - Failed to access https://finance.yahoo.com/news/topic/aapl: 404
+2025-08-06 23:44:19,264 - INFO - Trying URL: https://finance.yahoo.com/quote/AAPL
+2025-08-06 23:44:19,665 - INFO - Successfully accessed: https://finance.yahoo.com/quote/AAPL
+2025-08-06 23:44:19,778 - INFO - Found 61 elements with selector: h3
+2025-08-06 23:44:19,779 - INFO - Found 61 potential article elements
+2025-08-06 23:44:19,780 - WARNING - Only collected 0 articles. Adding mock data to reach 80.
+2025-08-06 23:44:19,780 - INFO - Creating 80 mock articles for AAPL
+2025-08-06 23:44:19,813 - INFO - Saved mock articles data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_articles_mock_20250806.csv
+2025-08-06 23:44:19,822 - INFO - Successfully collected 80 articles
+2025-08-06 23:44:19,823 - INFO - Date range: 2025-02-09 00:00:00 to 2025-08-03 00:00:00
+2025-08-06 23:44:19,826 - INFO - Saved articles data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_articles_20250806.csv
+2025-08-06 23:44:19,827 - INFO - Using mock articles - adjusting price data collection for recent dates
+2025-08-06 23:44:19,829 - INFO - Adjusted mock article dates to range: 2025-02-07 23:44:19.828720 to 2025-08-06 23:44:19.828720
+2025-08-06 23:44:19,829 - INFO - Fetching price data for AAPL
+2025-08-06 23:44:19,832 - INFO - Fetching prices from 2025-02-02 23:44:19.828720 to 2025-08-11 23:44:19.828720
+2025-08-06 23:44:20,473 - INFO - Retrieved 128 price observations
+2025-08-06 23:44:20,474 - INFO - Price data range: 2025-02-03 to 2025-08-06
+2025-08-06 23:44:20,476 - INFO - Computed 127 next-day returns
+2025-08-06 23:44:20,477 - INFO - Return statistics: mean=-0.0005, std=0.0245
+2025-08-06 23:44:20,479 - INFO - Saved price data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_prices_20250806.csv
+2025-08-06 23:44:20,481 - INFO - Saved returns data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_returns_20250806.csv
+2025-08-06 23:44:20,481 - INFO - ========================================
+2025-08-06 23:44:20,481 - INFO - DATA COLLECTION SUMMARY
+2025-08-06 23:44:20,481 - INFO - ========================================
+2025-08-06 23:44:20,483 - INFO - Articles collected: 80
+2025-08-06 23:44:20,483 - INFO - Price observations: 128
+2025-08-06 23:44:20,483 - INFO - Return observations: 127
+2025-08-06 23:44:20,484 - INFO - Article date range: 2025-02-07 23:44:19.828720 to 2025-08-06 23:44:19.828720
+2025-08-06 23:44:20,484 - INFO - Price date range: 2025-02-03 to 2025-08-06
+2025-08-06 23:44:20,484 - INFO - ========================================
+2025-08-06 23:57:34,020 - INFO - ==================================================
+2025-08-06 23:57:34,021 - INFO - Starting FinHub Text Analysis Pipeline
+2025-08-06 23:57:34,021 - INFO - ==================================================
+2025-08-06 23:57:34,022 - INFO - Initialized TextAnalysisFinance for ticker: AAPL
+2025-08-06 23:57:34,023 - INFO - Base directory: C:\Users\Admin\Desktop\FinHubPortfolio
+2025-08-06 23:57:34,023 - INFO - Starting data collection pipeline
+2025-08-06 23:57:34,024 - INFO - Starting news scraping for AAPL
+2025-08-06 23:57:34,024 - INFO - Target: at least 80 articles from past 6 months
+2025-08-06 23:57:34,024 - INFO - Trying URL: https://finance.yahoo.com/quote/AAPL/news/
+2025-08-06 23:57:34,370 - WARNING - Failed to access https://finance.yahoo.com/quote/AAPL/news/: 404
+2025-08-06 23:57:34,370 - INFO - Trying URL: https://finance.yahoo.com/quote/AAPL/news
+2025-08-06 23:57:34,696 - WARNING - Failed to access https://finance.yahoo.com/quote/AAPL/news: 404
+2025-08-06 23:57:34,696 - INFO - Trying URL: https://finance.yahoo.com/news/topic/aapl
+2025-08-06 23:57:35,097 - WARNING - Failed to access https://finance.yahoo.com/news/topic/aapl: 404
+2025-08-06 23:57:35,097 - INFO - Trying URL: https://finance.yahoo.com/quote/AAPL
+2025-08-06 23:57:35,477 - INFO - Successfully accessed: https://finance.yahoo.com/quote/AAPL
+2025-08-06 23:57:35,602 - INFO - Found 61 elements with selector: h3
+2025-08-06 23:57:35,603 - INFO - Found 61 potential article elements
+2025-08-06 23:57:35,603 - WARNING - Only collected 0 articles. Adding mock data to reach 80.
+2025-08-06 23:57:35,604 - INFO - Creating 80 mock articles for AAPL
+2025-08-06 23:57:35,613 - INFO - Saved mock articles data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_articles_mock_20250806.csv
+2025-08-06 23:57:35,617 - INFO - Successfully collected 80 articles
+2025-08-06 23:57:35,618 - INFO - Date range: 2025-02-09 00:00:00 to 2025-08-02 00:00:00
+2025-08-06 23:57:35,623 - INFO - Saved articles data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_articles_20250806.csv
+2025-08-06 23:57:35,624 - INFO - Using mock articles - adjusting price data collection for recent dates
+2025-08-06 23:57:35,626 - INFO - Adjusted mock article dates to range: 2025-02-07 23:57:35.625026 to 2025-08-06 23:57:35.625026
+2025-08-06 23:57:35,626 - INFO - Fetching price data for AAPL
+2025-08-06 23:57:35,627 - INFO - Fetching prices from 2025-02-02 23:57:35.625026 to 2025-08-11 23:57:35.625026
+2025-08-06 23:57:36,035 - INFO - Retrieved 128 price observations
+2025-08-06 23:57:36,036 - INFO - Price data range: 2025-02-03 to 2025-08-06
+2025-08-06 23:57:36,038 - INFO - Computed 127 next-day returns
+2025-08-06 23:57:36,038 - INFO - Return statistics: mean=-0.0005, std=0.0245
+2025-08-06 23:57:36,040 - INFO - Saved price data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_prices_20250806.csv
+2025-08-06 23:57:36,042 - INFO - Saved returns data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_returns_20250806.csv
+2025-08-06 23:57:36,042 - INFO - ========================================
+2025-08-06 23:57:36,042 - INFO - DATA COLLECTION SUMMARY
+2025-08-06 23:57:36,043 - INFO - ========================================
+2025-08-06 23:57:36,043 - INFO - Articles collected: 80
+2025-08-06 23:57:36,043 - INFO - Price observations: 128
+2025-08-06 23:57:36,044 - INFO - Return observations: 127
+2025-08-06 23:57:36,044 - INFO - Article date range: 2025-02-07 23:57:35.625026 to 2025-08-06 23:57:35.625026
+2025-08-06 23:57:36,045 - INFO - Price date range: 2025-02-03 to 2025-08-06
+2025-08-06 23:57:36,045 - INFO - ========================================
+2025-08-06 23:57:36,046 - INFO - ==================================================
+2025-08-06 23:57:36,046 - INFO - STARTING TEXT PREPROCESSING PIPELINE
+2025-08-06 23:57:36,046 - INFO - ==================================================
+2025-08-06 23:57:36,046 - INFO - Starting text preprocessing
+2025-08-06 23:57:36,046 - INFO - Processing 80 articles
+2025-08-06 23:57:36,046 - INFO - Maximum token length: 256
+2025-08-06 23:57:36,046 - INFO - Loading transformer model: distilbert-base-uncased
+2025-08-06 23:57:37,056 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-06 23:57:43,488 - INFO - Successfully loaded distilbert-base-uncased
+2025-08-06 23:57:43,494 - INFO - Tokenizer vocabulary size: 30522
+2025-08-06 23:57:43,495 - INFO - Combining headline and body text
+2025-08-06 23:57:43,496 - INFO - Processing raw text pipeline
+2025-08-06 23:57:43,497 - INFO - Raw text pipeline: processed 80 texts
+2025-08-06 23:57:43,498 - INFO - Processing stop-word filtered pipeline
+2025-08-06 23:57:43,499 - INFO - Stop-word filtered pipeline: processed 80 texts
+2025-08-06 23:57:43,499 - INFO - Tokenizing texts with transformer tokenizer
+2025-08-06 23:57:43,499 - INFO - Tokenizing raw texts
+2025-08-06 23:57:43,523 - INFO - Raw tokenization stats:
+2025-08-06 23:57:43,523 - INFO -   Average token length: 145.0
+2025-08-06 23:57:43,523 - INFO -   Maximum token length: 145
+2025-08-06 23:57:43,525 - INFO -   Tokens shape: torch.Size([80, 145])
+2025-08-06 23:57:43,525 - INFO - Tokenizing filtered texts
+2025-08-06 23:57:43,535 - INFO - Filtered tokenization stats:
+2025-08-06 23:57:43,535 - INFO -   Average token length: 132.0
+2025-08-06 23:57:43,535 - INFO -   Maximum token length: 132
+2025-08-06 23:57:43,535 - INFO -   Tokens shape: torch.Size([80, 132])
+2025-08-06 23:57:43,543 - INFO - Saved raw processed texts to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_raw_texts_20250806.csv
+2025-08-06 23:57:43,549 - INFO - Saved filtered processed texts to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_filtered_texts_20250806.csv
+2025-08-06 23:57:43,550 - INFO - Saved preprocessing statistics to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_preprocessing_stats_20250806.json
+2025-08-06 23:57:43,550 - INFO - Text preprocessing completed successfully
+2025-08-06 23:57:43,550 - INFO - Starting embedding extraction
+2025-08-06 23:57:43,551 - INFO - Extracting embeddings for raw text pipeline
+2025-08-06 23:57:50,136 - INFO - Hidden states shape: torch.Size([80, 145, 768])
+2025-08-06 23:57:50,169 - INFO - Raw embeddings extracted:
+2025-08-06 23:57:50,169 - INFO -   Mean pooling shape: torch.Size([80, 768])
+2025-08-06 23:57:50,171 - INFO -   CLS pooling shape: torch.Size([80, 768])
+2025-08-06 23:57:50,177 - INFO - Saved raw mean embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_raw_mean_20250806.npy
+2025-08-06 23:57:50,190 - INFO - Saved raw CLS embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_raw_cls_20250806.npy
+2025-08-06 23:57:50,191 - INFO - Extracting embeddings for filtered text pipeline
+2025-08-06 23:57:56,966 - INFO - Hidden states shape: torch.Size([80, 132, 768])
+2025-08-06 23:57:56,970 - INFO - Filtered embeddings extracted:
+2025-08-06 23:57:56,970 - INFO -   Mean pooling shape: torch.Size([80, 768])
+2025-08-06 23:57:56,971 - INFO -   CLS pooling shape: torch.Size([80, 768])
+2025-08-06 23:57:56,976 - INFO - Saved filtered mean embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_filtered_mean_20250806.npy
+2025-08-06 23:57:56,986 - INFO - Saved filtered CLS embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_filtered_cls_20250806.npy
+2025-08-06 23:57:56,988 - INFO - Embedding extraction completed successfully
+2025-08-06 23:57:56,988 - INFO - Generated embeddings for 80 articles
+2025-08-06 23:57:56,989 - INFO - ==================================================
+2025-08-06 23:57:56,989 - INFO - TEXT PREPROCESSING PIPELINE COMPLETED
+2025-08-06 23:57:56,990 - INFO - ==================================================
+2025-08-07 00:03:58,199 - INFO - ==================================================
+2025-08-07 00:03:58,200 - INFO - Starting FinHub Text Analysis Pipeline
+2025-08-07 00:03:58,200 - INFO - ==================================================
+2025-08-07 00:03:58,203 - INFO - Initialized TextAnalysisFinance for ticker: AAPL
+2025-08-07 00:03:58,203 - INFO - Base directory: C:\Users\Admin\Desktop\FinHubPortfolio
+2025-08-07 00:03:58,205 - INFO - Starting data collection pipeline
+2025-08-07 00:03:58,205 - INFO - Starting news scraping for AAPL
+2025-08-07 00:03:58,205 - INFO - Target: at least 80 articles from past 6 months
+2025-08-07 00:03:58,206 - INFO - Trying URL: https://finance.yahoo.com/quote/AAPL/news/
+2025-08-07 00:03:58,808 - WARNING - Failed to access https://finance.yahoo.com/quote/AAPL/news/: 404
+2025-08-07 00:03:58,808 - INFO - Trying URL: https://finance.yahoo.com/quote/AAPL/news
+2025-08-07 00:03:59,185 - WARNING - Failed to access https://finance.yahoo.com/quote/AAPL/news: 404
+2025-08-07 00:03:59,186 - INFO - Trying URL: https://finance.yahoo.com/news/topic/aapl
+2025-08-07 00:03:59,516 - WARNING - Failed to access https://finance.yahoo.com/news/topic/aapl: 404
+2025-08-07 00:03:59,516 - INFO - Trying URL: https://finance.yahoo.com/quote/AAPL
+2025-08-07 00:03:59,922 - INFO - Successfully accessed: https://finance.yahoo.com/quote/AAPL
+2025-08-07 00:04:00,052 - INFO - Found 61 elements with selector: h3
+2025-08-07 00:04:00,052 - INFO - Found 61 potential article elements
+2025-08-07 00:04:00,053 - WARNING - Only collected 0 articles. Adding mock data to reach 80.
+2025-08-07 00:04:00,053 - INFO - Creating 80 mock articles for AAPL
+2025-08-07 00:04:00,065 - INFO - Saved mock articles data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_articles_mock_20250807.csv
+2025-08-07 00:04:00,069 - INFO - Successfully collected 80 articles
+2025-08-07 00:04:00,070 - INFO - Date range: 2025-02-09 00:00:00 to 2025-08-06 00:00:00
+2025-08-07 00:04:00,073 - INFO - Saved articles data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_articles_20250807.csv
+2025-08-07 00:04:00,074 - INFO - Using mock articles - adjusting price data collection for recent dates
+2025-08-07 00:04:00,076 - INFO - Adjusted mock article dates to range: 2025-02-08 00:04:00.074264 to 2025-08-07 00:04:00.074264
+2025-08-07 00:04:00,076 - INFO - Fetching price data for AAPL
+2025-08-07 00:04:00,077 - INFO - Fetching prices from 2025-02-03 00:04:00.074264 to 2025-08-12 00:04:00.074264
+2025-08-07 00:04:00,545 - INFO - Retrieved 128 price observations
+2025-08-07 00:04:00,546 - INFO - Price data range: 2025-02-03 to 2025-08-06
+2025-08-07 00:04:00,548 - INFO - Computed 127 next-day returns
+2025-08-07 00:04:00,548 - INFO - Return statistics: mean=-0.0005, std=0.0245
+2025-08-07 00:04:00,553 - INFO - Saved price data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_prices_20250807.csv
+2025-08-07 00:04:00,556 - INFO - Saved returns data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_returns_20250807.csv
+2025-08-07 00:04:00,556 - INFO - ========================================
+2025-08-07 00:04:00,556 - INFO - DATA COLLECTION SUMMARY
+2025-08-07 00:04:00,556 - INFO - ========================================
+2025-08-07 00:04:00,556 - INFO - Articles collected: 80
+2025-08-07 00:04:00,556 - INFO - Price observations: 128
+2025-08-07 00:04:00,556 - INFO - Return observations: 127
+2025-08-07 00:04:00,558 - INFO - Article date range: 2025-02-08 00:04:00.074264 to 2025-08-07 00:04:00.074264
+2025-08-07 00:04:00,558 - INFO - Price date range: 2025-02-03 to 2025-08-06
+2025-08-07 00:04:00,559 - INFO - ========================================
+2025-08-07 00:04:00,559 - INFO - ==================================================
+2025-08-07 00:04:00,560 - INFO - STARTING TEXT PREPROCESSING PIPELINE
+2025-08-07 00:04:00,560 - INFO - ==================================================
+2025-08-07 00:04:00,560 - INFO - Starting text preprocessing
+2025-08-07 00:04:00,560 - INFO - Processing 80 articles
+2025-08-07 00:04:00,560 - INFO - Maximum token length: 256
+2025-08-07 00:04:00,560 - INFO - Loading transformer model: distilbert-base-uncased
+2025-08-07 00:04:01,078 - INFO - Successfully loaded distilbert-base-uncased
+2025-08-07 00:04:01,084 - INFO - Tokenizer vocabulary size: 30522
+2025-08-07 00:04:01,085 - INFO - Combining headline and body text
+2025-08-07 00:04:01,086 - INFO - Processing raw text pipeline
+2025-08-07 00:04:01,087 - INFO - Raw text pipeline: processed 80 texts
+2025-08-07 00:04:01,087 - INFO - Processing stop-word filtered pipeline
+2025-08-07 00:04:01,089 - INFO - Stop-word filtered pipeline: processed 80 texts
+2025-08-07 00:04:01,089 - INFO - Tokenizing texts with transformer tokenizer
+2025-08-07 00:04:01,089 - INFO - Tokenizing raw texts
+2025-08-07 00:04:01,106 - INFO - Raw tokenization stats:
+2025-08-07 00:04:01,107 - INFO -   Average token length: 145.0
+2025-08-07 00:04:01,107 - INFO -   Maximum token length: 145
+2025-08-07 00:04:01,107 - INFO -   Tokens shape: torch.Size([80, 145])
+2025-08-07 00:04:01,107 - INFO - Tokenizing filtered texts
+2025-08-07 00:04:01,119 - INFO - Filtered tokenization stats:
+2025-08-07 00:04:01,119 - INFO -   Average token length: 132.0
+2025-08-07 00:04:01,119 - INFO -   Maximum token length: 132
+2025-08-07 00:04:01,120 - INFO -   Tokens shape: torch.Size([80, 132])
+2025-08-07 00:04:01,132 - INFO - Saved raw processed texts to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_raw_texts_20250807.csv
+2025-08-07 00:04:01,139 - INFO - Saved filtered processed texts to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_filtered_texts_20250807.csv
+2025-08-07 00:04:01,140 - INFO - Saved preprocessing statistics to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_preprocessing_stats_20250807.json
+2025-08-07 00:04:01,141 - INFO - Text preprocessing completed successfully
+2025-08-07 00:04:01,141 - INFO - Starting embedding extraction
+2025-08-07 00:04:01,141 - INFO - Extracting embeddings for raw text pipeline
+2025-08-07 00:04:09,667 - INFO - Hidden states shape: torch.Size([80, 145, 768])
+2025-08-07 00:04:09,684 - INFO - Raw embeddings extracted:
+2025-08-07 00:04:09,685 - INFO -   Mean pooling shape: torch.Size([80, 768])
+2025-08-07 00:04:09,685 - INFO -   CLS pooling shape: torch.Size([80, 768])
+2025-08-07 00:04:09,690 - INFO - Saved raw mean embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_raw_mean_20250807.npy
+2025-08-07 00:04:09,697 - INFO - Saved raw CLS embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_raw_cls_20250807.npy
+2025-08-07 00:04:09,697 - INFO - Extracting embeddings for filtered text pipeline
+2025-08-07 00:04:15,381 - INFO - Hidden states shape: torch.Size([80, 132, 768])
+2025-08-07 00:04:15,385 - INFO - Filtered embeddings extracted:
+2025-08-07 00:04:15,387 - INFO -   Mean pooling shape: torch.Size([80, 768])
+2025-08-07 00:04:15,388 - INFO -   CLS pooling shape: torch.Size([80, 768])
+2025-08-07 00:04:15,391 - INFO - Saved filtered mean embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_filtered_mean_20250807.npy
+2025-08-07 00:04:15,402 - INFO - Saved filtered CLS embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_filtered_cls_20250807.npy
+2025-08-07 00:04:15,403 - INFO - Embedding extraction completed successfully
+2025-08-07 00:04:15,403 - INFO - Generated embeddings for 80 articles
+2025-08-07 00:04:15,404 - INFO - ==================================================
+2025-08-07 00:04:15,405 - INFO - TEXT PREPROCESSING PIPELINE COMPLETED
+2025-08-07 00:04:15,405 - INFO - ==================================================
+2025-08-07 00:04:15,447 - INFO - ============================================================
+2025-08-07 00:04:15,448 - INFO - STARTING FEATURE ENGINEERING AND MODELING PIPELINE
+2025-08-07 00:04:15,448 - INFO - ============================================================
+2025-08-07 00:04:15,449 - INFO - Applying PCA reduction to 5 components
+2025-08-07 00:04:15,449 - INFO - Applying PCA to raw_mean embeddings
+2025-08-07 00:04:15,542 - INFO -   Original shape: (80, 768)
+2025-08-07 00:04:15,543 - INFO -   PCA shape: (80, 5)
+2025-08-07 00:04:15,547 - INFO -   Explained variance ratio: [0.28701496 0.21568458 0.18452764 0.14359044 0.04986302]
+2025-08-07 00:04:15,548 - INFO -   Cumulative explained variance: 0.8807
+2025-08-07 00:04:15,553 - INFO -   Saved PCA model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_pca_model_raw_mean_20250807.pkl
+2025-08-07 00:04:15,556 - INFO -   Saved PCA embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_raw_mean_pca_20250807.npy
+2025-08-07 00:04:15,556 - INFO - Applying PCA to raw_cls embeddings
+2025-08-07 00:04:15,578 - INFO -   Original shape: (80, 768)
+2025-08-07 00:04:15,578 - INFO -   PCA shape: (80, 5)
+2025-08-07 00:04:15,579 - INFO -   Explained variance ratio: [0.30711773 0.22565763 0.16753776 0.09041584 0.05329368]
+2025-08-07 00:04:15,579 - INFO -   Cumulative explained variance: 0.8440
+2025-08-07 00:04:15,581 - INFO -   Saved PCA model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_pca_model_raw_cls_20250807.pkl
+2025-08-07 00:04:15,583 - INFO -   Saved PCA embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_raw_cls_pca_20250807.npy
+2025-08-07 00:04:15,583 - INFO - Applying PCA to filtered_mean embeddings
+2025-08-07 00:04:15,594 - INFO -   Original shape: (80, 768)
+2025-08-07 00:04:15,594 - INFO -   PCA shape: (80, 5)
+2025-08-07 00:04:15,595 - INFO -   Explained variance ratio: [0.31232822 0.24876672 0.16049857 0.09577493 0.05405225]
+2025-08-07 00:04:15,595 - INFO -   Cumulative explained variance: 0.8714
+2025-08-07 00:04:15,598 - INFO -   Saved PCA model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_pca_model_filtered_mean_20250807.pkl
+2025-08-07 00:04:15,600 - INFO -   Saved PCA embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_filtered_mean_pca_20250807.npy
+2025-08-07 00:04:15,601 - INFO - Applying PCA to filtered_cls embeddings
+2025-08-07 00:04:15,612 - INFO -   Original shape: (80, 768)
+2025-08-07 00:04:15,612 - INFO -   PCA shape: (80, 5)
+2025-08-07 00:04:15,613 - INFO -   Explained variance ratio: [0.3120987  0.22240573 0.14672546 0.09974875 0.05451689]
+2025-08-07 00:04:15,613 - INFO -   Cumulative explained variance: 0.8355
+2025-08-07 00:04:15,615 - INFO -   Saved PCA model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_pca_model_filtered_cls_20250807.pkl
+2025-08-07 00:04:15,617 - INFO -   Saved PCA embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_filtered_cls_pca_20250807.npy
+2025-08-07 00:04:15,618 - INFO - PCA reduction completed successfully
+2025-08-07 00:04:15,618 - INFO - Creating regression datasets
+2025-08-07 00:04:15,660 - INFO - Articles date range: 2025-02-08 to 2025-08-07
+2025-08-07 00:04:15,661 - INFO - Returns date range: 2025-02-03 to 2025-08-05
+2025-08-07 00:04:15,676 - INFO - Successfully matched 54 articles with returns
+2025-08-07 00:04:15,685 - INFO - Using 54 article-return pairs
+2025-08-07 00:04:15,686 - INFO - Creating dataset for raw_mean
+2025-08-07 00:04:15,690 - INFO -   raw_mean dataset shape: X=(54, 768), y=(54,)
+2025-08-07 00:04:15,963 - INFO -   Saved dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_raw_mean_20250807.parquet
+2025-08-07 00:04:15,964 - INFO - Creating dataset for raw_cls
+2025-08-07 00:04:15,965 - INFO -   raw_cls dataset shape: X=(54, 768), y=(54,)
+2025-08-07 00:04:16,440 - INFO -   Saved dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_raw_cls_20250807.parquet
+2025-08-07 00:04:16,440 - INFO - Creating dataset for filtered_mean
+2025-08-07 00:04:16,442 - INFO -   filtered_mean dataset shape: X=(54, 768), y=(54,)
+2025-08-07 00:04:16,537 - INFO -   Saved dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_filtered_mean_20250807.parquet
+2025-08-07 00:04:16,538 - INFO - Creating dataset for filtered_cls
+2025-08-07 00:04:16,539 - INFO -   filtered_cls dataset shape: X=(54, 768), y=(54,)
+2025-08-07 00:04:16,641 - INFO -   Saved dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_filtered_cls_20250807.parquet
+2025-08-07 00:04:16,641 - INFO - Creating dataset for raw_mean_pca
+2025-08-07 00:04:16,642 - INFO -   raw_mean_pca dataset shape: X=(54, 5), y=(54,)
+2025-08-07 00:04:16,647 - INFO -   Saved PCA dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_raw_mean_pca_20250807.parquet
+2025-08-07 00:04:16,647 - INFO - Creating dataset for raw_cls_pca
+2025-08-07 00:04:16,649 - INFO -   raw_cls_pca dataset shape: X=(54, 5), y=(54,)
+2025-08-07 00:04:16,655 - INFO -   Saved PCA dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_raw_cls_pca_20250807.parquet
+2025-08-07 00:04:16,655 - INFO - Creating dataset for filtered_mean_pca
+2025-08-07 00:04:16,657 - INFO -   filtered_mean_pca dataset shape: X=(54, 5), y=(54,)
+2025-08-07 00:04:16,664 - INFO -   Saved PCA dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_filtered_mean_pca_20250807.parquet
+2025-08-07 00:04:16,664 - INFO - Creating dataset for filtered_cls_pca
+2025-08-07 00:04:16,666 - INFO -   filtered_cls_pca dataset shape: X=(54, 5), y=(54,)
+2025-08-07 00:04:16,671 - INFO -   Saved PCA dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_filtered_cls_pca_20250807.parquet
+2025-08-07 00:04:16,671 - INFO - Regression datasets created successfully
+2025-08-07 00:04:16,672 - INFO - Starting model training and evaluation
+2025-08-07 00:04:16,672 - INFO - Training model for raw_mean
+2025-08-07 00:04:16,673 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:04:16,673 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:04:16,674 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:04:16,690 - INFO -   raw_mean Results:
+2025-08-07 00:04:16,690 - INFO -     Train - MSE: 0.000944, R²: 0.0985, Corr: 0.3907
+2025-08-07 00:04:16,690 - INFO -     Test  - MSE: 0.000135, R²: -0.2235, Corr: -0.0096
+2025-08-07 00:04:16,693 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_raw_mean_20250807.pkl
+2025-08-07 00:04:16,693 - INFO - Training model for raw_cls
+2025-08-07 00:04:16,695 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:04:16,695 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:04:16,695 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:04:16,704 - INFO -   raw_cls Results:
+2025-08-07 00:04:16,704 - INFO -     Train - MSE: 0.000818, R²: 0.2187, Corr: 0.4984
+2025-08-07 00:04:16,704 - INFO -     Test  - MSE: 0.000222, R²: -1.0060, Corr: 0.0359
+2025-08-07 00:04:16,706 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_raw_cls_20250807.pkl
+2025-08-07 00:04:16,706 - INFO - Training model for filtered_mean
+2025-08-07 00:04:16,707 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:04:16,707 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:04:16,707 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:04:16,716 - INFO -   filtered_mean Results:
+2025-08-07 00:04:16,717 - INFO -     Train - MSE: 0.000937, R²: 0.1053, Corr: 0.4052
+2025-08-07 00:04:16,717 - INFO -     Test  - MSE: 0.000138, R²: -0.2420, Corr: -0.0218
+2025-08-07 00:04:16,719 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_filtered_mean_20250807.pkl
+2025-08-07 00:04:16,719 - INFO - Training model for filtered_cls
+2025-08-07 00:04:16,720 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:04:16,720 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:04:16,720 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:04:16,726 - INFO -   filtered_cls Results:
+2025-08-07 00:04:16,727 - INFO -     Train - MSE: 0.000811, R²: 0.2258, Corr: 0.5033
+2025-08-07 00:04:16,727 - INFO -     Test  - MSE: 0.000230, R²: -1.0743, Corr: 0.0107
+2025-08-07 00:04:16,730 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_filtered_cls_20250807.pkl
+2025-08-07 00:04:16,730 - INFO - Training model for raw_mean_pca
+2025-08-07 00:04:16,730 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:04:16,731 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:04:16,731 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:04:16,736 - INFO -   raw_mean_pca Results:
+2025-08-07 00:04:16,737 - INFO -     Train - MSE: 0.001007, R²: 0.0381, Corr: 0.2078
+2025-08-07 00:04:16,737 - INFO -     Test  - MSE: 0.000130, R²: -0.1740, Corr: 0.0603
+2025-08-07 00:04:16,739 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_raw_mean_pca_20250807.pkl
+2025-08-07 00:04:16,739 - INFO - Training model for raw_cls_pca
+2025-08-07 00:04:16,739 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:04:16,740 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:04:16,740 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:04:16,746 - INFO -   raw_cls_pca Results:
+2025-08-07 00:04:16,747 - INFO -     Train - MSE: 0.000980, R²: 0.0643, Corr: 0.2556
+2025-08-07 00:04:16,747 - INFO -     Test  - MSE: 0.000127, R²: -0.1428, Corr: 0.2589
+2025-08-07 00:04:16,750 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_raw_cls_pca_20250807.pkl
+2025-08-07 00:04:16,750 - INFO - Training model for filtered_mean_pca
+2025-08-07 00:04:16,751 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:04:16,751 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:04:16,752 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:04:16,755 - INFO -   filtered_mean_pca Results:
+2025-08-07 00:04:16,756 - INFO -     Train - MSE: 0.001000, R²: 0.0451, Corr: 0.2324
+2025-08-07 00:04:16,756 - INFO -     Test  - MSE: 0.000130, R²: -0.1753, Corr: 0.0509
+2025-08-07 00:04:16,758 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_filtered_mean_pca_20250807.pkl
+2025-08-07 00:04:16,758 - INFO - Training model for filtered_cls_pca
+2025-08-07 00:04:16,759 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:04:16,759 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:04:16,759 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:04:16,766 - INFO -   filtered_cls_pca Results:
+2025-08-07 00:04:16,766 - INFO -     Train - MSE: 0.000966, R²: 0.0775, Corr: 0.2827
+2025-08-07 00:04:16,766 - INFO -     Test  - MSE: 0.000145, R²: -0.3063, Corr: 0.1162
+2025-08-07 00:04:16,769 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_filtered_cls_pca_20250807.pkl
+2025-08-07 00:04:16,771 - INFO - Saved results summary to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_results_20250807.json
+2025-08-07 00:04:16,772 - INFO - ==================================================
+2025-08-07 00:04:16,772 - INFO - MODEL EVALUATION SUMMARY
+2025-08-07 00:04:16,772 - INFO - ==================================================
+2025-08-07 00:04:16,772 - INFO - Best performing configuration: raw_cls_pca
+2025-08-07 00:04:16,773 - INFO - Best test R²: -0.1428
+2025-08-07 00:04:16,773 - INFO - Best test correlation: 0.2589
+2025-08-07 00:04:16,773 - INFO - ==================================================
+2025-08-07 00:04:16,774 - INFO - Creating prediction plots
+2025-08-07 00:04:18,294 - INFO - Saved prediction plot to: C:\Users\Admin\Desktop\FinHubPortfolio\figures\AAPL_predictions_20250807.svg
+2025-08-07 00:04:18,678 - INFO - Saved detailed prediction plot to: C:\Users\Admin\Desktop\FinHubPortfolio\figures\AAPL_best_model_predictions_20250807.svg
+2025-08-07 00:04:18,678 - INFO - ============================================================
+2025-08-07 00:04:18,678 - INFO - FEATURE ENGINEERING AND MODELING PIPELINE COMPLETED
+2025-08-07 00:04:18,679 - INFO - ============================================================
+2025-08-07 00:08:06,541 - INFO - ==================================================
+2025-08-07 00:08:06,542 - INFO - Starting FinHub Text Analysis Pipeline
+2025-08-07 00:08:06,542 - INFO - ==================================================
+2025-08-07 00:08:06,545 - INFO - Initialized TextAnalysisFinance for ticker: AAPL
+2025-08-07 00:08:06,545 - INFO - Base directory: C:\Users\Admin\Desktop\FinHubPortfolio
+2025-08-07 00:08:06,546 - INFO - ================================================================================
+2025-08-07 00:08:06,546 - INFO - STARTING COMPLETE FINHUB TEXT ANALYSIS PIPELINE
+2025-08-07 00:08:06,546 - INFO - ================================================================================
+2025-08-07 00:08:06,546 - INFO - PHASE 1: DATA COLLECTION
+2025-08-07 00:08:06,547 - INFO - ----------------------------------------
+2025-08-07 00:08:06,547 - INFO - Starting data collection pipeline
+2025-08-07 00:08:06,547 - INFO - Starting news scraping for AAPL
+2025-08-07 00:08:06,547 - INFO - Target: at least 80 articles from past 6 months
+2025-08-07 00:08:06,547 - INFO - Trying URL: https://finance.yahoo.com/quote/AAPL/news/
+2025-08-07 00:08:06,862 - WARNING - Failed to access https://finance.yahoo.com/quote/AAPL/news/: 404
+2025-08-07 00:08:06,863 - INFO - Trying URL: https://finance.yahoo.com/quote/AAPL/news
+2025-08-07 00:08:07,314 - WARNING - Failed to access https://finance.yahoo.com/quote/AAPL/news: 404
+2025-08-07 00:08:07,314 - INFO - Trying URL: https://finance.yahoo.com/news/topic/aapl
+2025-08-07 00:08:07,680 - WARNING - Failed to access https://finance.yahoo.com/news/topic/aapl: 404
+2025-08-07 00:08:07,680 - INFO - Trying URL: https://finance.yahoo.com/quote/AAPL
+2025-08-07 00:08:08,183 - INFO - Successfully accessed: https://finance.yahoo.com/quote/AAPL
+2025-08-07 00:08:08,301 - INFO - Found 61 elements with selector: h3
+2025-08-07 00:08:08,302 - INFO - Found 61 potential article elements
+2025-08-07 00:08:08,302 - WARNING - Only collected 0 articles. Adding mock data to reach 80.
+2025-08-07 00:08:08,303 - INFO - Creating 80 mock articles for AAPL
+2025-08-07 00:08:08,310 - INFO - Saved mock articles data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_articles_mock_20250807.csv
+2025-08-07 00:08:08,315 - INFO - Successfully collected 80 articles
+2025-08-07 00:08:08,316 - INFO - Date range: 2025-02-10 00:00:00 to 2025-08-03 00:00:00
+2025-08-07 00:08:08,318 - INFO - Saved articles data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_articles_20250807.csv
+2025-08-07 00:08:08,319 - INFO - Using mock articles - adjusting price data collection for recent dates
+2025-08-07 00:08:08,321 - INFO - Adjusted mock article dates to range: 2025-02-08 00:08:08.320036 to 2025-08-07 00:08:08.320036
+2025-08-07 00:08:08,321 - INFO - Fetching price data for AAPL
+2025-08-07 00:08:08,322 - INFO - Fetching prices from 2025-02-03 00:08:08.320036 to 2025-08-12 00:08:08.320036
+2025-08-07 00:08:08,775 - INFO - Retrieved 128 price observations
+2025-08-07 00:08:08,775 - INFO - Price data range: 2025-02-03 to 2025-08-06
+2025-08-07 00:08:08,777 - INFO - Computed 127 next-day returns
+2025-08-07 00:08:08,777 - INFO - Return statistics: mean=-0.0005, std=0.0245
+2025-08-07 00:08:08,779 - INFO - Saved price data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_prices_20250807.csv
+2025-08-07 00:08:08,781 - INFO - Saved returns data to: C:\Users\Admin\Desktop\FinHubPortfolio\rawdata\AAPL_returns_20250807.csv
+2025-08-07 00:08:08,781 - INFO - ========================================
+2025-08-07 00:08:08,782 - INFO - DATA COLLECTION SUMMARY
+2025-08-07 00:08:08,782 - INFO - ========================================
+2025-08-07 00:08:08,782 - INFO - Articles collected: 80
+2025-08-07 00:08:08,782 - INFO - Price observations: 128
+2025-08-07 00:08:08,782 - INFO - Return observations: 127
+2025-08-07 00:08:08,783 - INFO - Article date range: 2025-02-08 00:08:08.320036 to 2025-08-07 00:08:08.320036
+2025-08-07 00:08:08,783 - INFO - Price date range: 2025-02-03 to 2025-08-06
+2025-08-07 00:08:08,784 - INFO - ========================================
+2025-08-07 00:08:08,826 - INFO -    Articles: 80
+2025-08-07 00:08:08,826 - INFO -    Prices: 128
+2025-08-07 00:08:08,826 - INFO -    Returns: 127
+2025-08-07 00:08:08,827 - INFO - 
+PHASE 2: TEXT PROCESSING & EMBEDDING EXTRACTION
+2025-08-07 00:08:08,827 - INFO - -------------------------------------------------------
+2025-08-07 00:08:08,827 - INFO - ==================================================
+2025-08-07 00:08:08,827 - INFO - STARTING TEXT PREPROCESSING PIPELINE
+2025-08-07 00:08:08,828 - INFO - ==================================================
+2025-08-07 00:08:08,828 - INFO - Starting text preprocessing
+2025-08-07 00:08:08,828 - INFO - Processing 80 articles
+2025-08-07 00:08:08,828 - INFO - Maximum token length: 256
+2025-08-07 00:08:08,829 - INFO - Loading transformer model: distilbert-base-uncased
+2025-08-07 00:08:09,257 - INFO - Successfully loaded distilbert-base-uncased
+2025-08-07 00:08:09,262 - INFO - Tokenizer vocabulary size: 30522
+2025-08-07 00:08:09,262 - INFO - Combining headline and body text
+2025-08-07 00:08:09,263 - INFO - Processing raw text pipeline
+2025-08-07 00:08:09,264 - INFO - Raw text pipeline: processed 80 texts
+2025-08-07 00:08:09,264 - INFO - Processing stop-word filtered pipeline
+2025-08-07 00:08:09,266 - INFO - Stop-word filtered pipeline: processed 80 texts
+2025-08-07 00:08:09,266 - INFO - Tokenizing texts with transformer tokenizer
+2025-08-07 00:08:09,266 - INFO - Tokenizing raw texts
+2025-08-07 00:08:09,282 - INFO - Raw tokenization stats:
+2025-08-07 00:08:09,282 - INFO -   Average token length: 145.0
+2025-08-07 00:08:09,282 - INFO -   Maximum token length: 145
+2025-08-07 00:08:09,283 - INFO -   Tokens shape: torch.Size([80, 145])
+2025-08-07 00:08:09,283 - INFO - Tokenizing filtered texts
+2025-08-07 00:08:09,295 - INFO - Filtered tokenization stats:
+2025-08-07 00:08:09,295 - INFO -   Average token length: 132.0
+2025-08-07 00:08:09,295 - INFO -   Maximum token length: 132
+2025-08-07 00:08:09,296 - INFO -   Tokens shape: torch.Size([80, 132])
+2025-08-07 00:08:09,302 - INFO - Saved raw processed texts to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_raw_texts_20250807.csv
+2025-08-07 00:08:09,310 - INFO - Saved filtered processed texts to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_filtered_texts_20250807.csv
+2025-08-07 00:08:09,311 - INFO - Saved preprocessing statistics to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_preprocessing_stats_20250807.json
+2025-08-07 00:08:09,312 - INFO - Text preprocessing completed successfully
+2025-08-07 00:08:09,312 - INFO - Starting embedding extraction
+2025-08-07 00:08:09,312 - INFO - Extracting embeddings for raw text pipeline
+2025-08-07 00:08:16,369 - INFO - Hidden states shape: torch.Size([80, 145, 768])
+2025-08-07 00:08:16,377 - INFO - Raw embeddings extracted:
+2025-08-07 00:08:16,377 - INFO -   Mean pooling shape: torch.Size([80, 768])
+2025-08-07 00:08:16,378 - INFO -   CLS pooling shape: torch.Size([80, 768])
+2025-08-07 00:08:16,385 - INFO - Saved raw mean embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_raw_mean_20250807.npy
+2025-08-07 00:08:16,393 - INFO - Saved raw CLS embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_raw_cls_20250807.npy
+2025-08-07 00:08:16,393 - INFO - Extracting embeddings for filtered text pipeline
+2025-08-07 00:08:21,831 - INFO - Hidden states shape: torch.Size([80, 132, 768])
+2025-08-07 00:08:21,834 - INFO - Filtered embeddings extracted:
+2025-08-07 00:08:21,835 - INFO -   Mean pooling shape: torch.Size([80, 768])
+2025-08-07 00:08:21,835 - INFO -   CLS pooling shape: torch.Size([80, 768])
+2025-08-07 00:08:21,837 - INFO - Saved filtered mean embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_filtered_mean_20250807.npy
+2025-08-07 00:08:21,846 - INFO - Saved filtered CLS embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_filtered_cls_20250807.npy
+2025-08-07 00:08:21,846 - INFO - Embedding extraction completed successfully
+2025-08-07 00:08:21,846 - INFO - Generated embeddings for 80 articles
+2025-08-07 00:08:21,847 - INFO - ==================================================
+2025-08-07 00:08:21,847 - INFO - TEXT PREPROCESSING PIPELINE COMPLETED
+2025-08-07 00:08:21,848 - INFO - ==================================================
+2025-08-07 00:08:21,879 - INFO -    raw_mean: (80, 768)
+2025-08-07 00:08:21,879 - INFO -    raw_cls: (80, 768)
+2025-08-07 00:08:21,880 - INFO -    filtered_mean: (80, 768)
+2025-08-07 00:08:21,880 - INFO -    filtered_cls: (80, 768)
+2025-08-07 00:08:21,880 - INFO - 
+PHASE 3: FEATURE ENGINEERING & MODELING
+2025-08-07 00:08:21,881 - INFO - ---------------------------------------------
+2025-08-07 00:08:21,881 - INFO - ============================================================
+2025-08-07 00:08:21,881 - INFO - STARTING FEATURE ENGINEERING AND MODELING PIPELINE
+2025-08-07 00:08:21,881 - INFO - ============================================================
+2025-08-07 00:08:21,882 - INFO - Applying PCA reduction to 5 components
+2025-08-07 00:08:21,882 - INFO - Applying PCA to raw_mean embeddings
+2025-08-07 00:08:21,935 - INFO -   Original shape: (80, 768)
+2025-08-07 00:08:21,935 - INFO -   PCA shape: (80, 5)
+2025-08-07 00:08:21,938 - INFO -   Explained variance ratio: [0.28701484 0.21568462 0.18452752 0.14359035 0.04986304]
+2025-08-07 00:08:21,938 - INFO -   Cumulative explained variance: 0.8807
+2025-08-07 00:08:21,940 - INFO -   Saved PCA model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_pca_model_raw_mean_20250807.pkl
+2025-08-07 00:08:21,942 - INFO -   Saved PCA embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_raw_mean_pca_20250807.npy
+2025-08-07 00:08:21,942 - INFO - Applying PCA to raw_cls embeddings
+2025-08-07 00:08:21,957 - INFO -   Original shape: (80, 768)
+2025-08-07 00:08:21,957 - INFO -   PCA shape: (80, 5)
+2025-08-07 00:08:21,958 - INFO -   Explained variance ratio: [0.30711785 0.22565733 0.1675381  0.09041593 0.05329369]
+2025-08-07 00:08:21,958 - INFO -   Cumulative explained variance: 0.8440
+2025-08-07 00:08:21,961 - INFO -   Saved PCA model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_pca_model_raw_cls_20250807.pkl
+2025-08-07 00:08:21,963 - INFO -   Saved PCA embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_raw_cls_pca_20250807.npy
+2025-08-07 00:08:21,963 - INFO - Applying PCA to filtered_mean embeddings
+2025-08-07 00:08:21,971 - INFO -   Original shape: (80, 768)
+2025-08-07 00:08:21,971 - INFO -   PCA shape: (80, 5)
+2025-08-07 00:08:21,972 - INFO -   Explained variance ratio: [0.31232837 0.24876632 0.1604987  0.09577499 0.05405217]
+2025-08-07 00:08:21,972 - INFO -   Cumulative explained variance: 0.8714
+2025-08-07 00:08:21,974 - INFO -   Saved PCA model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_pca_model_filtered_mean_20250807.pkl
+2025-08-07 00:08:21,976 - INFO -   Saved PCA embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_filtered_mean_pca_20250807.npy
+2025-08-07 00:08:21,977 - INFO - Applying PCA to filtered_cls embeddings
+2025-08-07 00:08:21,985 - INFO -   Original shape: (80, 768)
+2025-08-07 00:08:21,986 - INFO -   PCA shape: (80, 5)
+2025-08-07 00:08:21,986 - INFO -   Explained variance ratio: [0.3120983  0.2224058  0.14672534 0.09974877 0.05451687]
+2025-08-07 00:08:21,986 - INFO -   Cumulative explained variance: 0.8355
+2025-08-07 00:08:21,989 - INFO -   Saved PCA model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_pca_model_filtered_cls_20250807.pkl
+2025-08-07 00:08:21,991 - INFO -   Saved PCA embeddings to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_embeddings_filtered_cls_pca_20250807.npy
+2025-08-07 00:08:21,991 - INFO - PCA reduction completed successfully
+2025-08-07 00:08:21,991 - INFO - Creating regression datasets
+2025-08-07 00:08:22,003 - INFO - Articles date range: 2025-02-08 to 2025-08-07
+2025-08-07 00:08:22,004 - INFO - Returns date range: 2025-02-03 to 2025-08-05
+2025-08-07 00:08:22,011 - INFO - Successfully matched 54 articles with returns
+2025-08-07 00:08:22,019 - INFO - Using 54 article-return pairs
+2025-08-07 00:08:22,019 - INFO - Creating dataset for raw_mean
+2025-08-07 00:08:22,022 - INFO -   raw_mean dataset shape: X=(54, 768), y=(54,)
+2025-08-07 00:08:22,271 - INFO -   Saved dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_raw_mean_20250807.parquet
+2025-08-07 00:08:22,271 - INFO - Creating dataset for raw_cls
+2025-08-07 00:08:22,273 - INFO -   raw_cls dataset shape: X=(54, 768), y=(54,)
+2025-08-07 00:08:22,704 - INFO -   Saved dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_raw_cls_20250807.parquet
+2025-08-07 00:08:22,704 - INFO - Creating dataset for filtered_mean
+2025-08-07 00:08:22,705 - INFO -   filtered_mean dataset shape: X=(54, 768), y=(54,)
+2025-08-07 00:08:22,801 - INFO -   Saved dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_filtered_mean_20250807.parquet
+2025-08-07 00:08:22,801 - INFO - Creating dataset for filtered_cls
+2025-08-07 00:08:22,803 - INFO -   filtered_cls dataset shape: X=(54, 768), y=(54,)
+2025-08-07 00:08:22,898 - INFO -   Saved dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_filtered_cls_20250807.parquet
+2025-08-07 00:08:22,898 - INFO - Creating dataset for raw_mean_pca
+2025-08-07 00:08:22,899 - INFO -   raw_mean_pca dataset shape: X=(54, 5), y=(54,)
+2025-08-07 00:08:22,902 - INFO -   Saved PCA dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_raw_mean_pca_20250807.parquet
+2025-08-07 00:08:22,903 - INFO - Creating dataset for raw_cls_pca
+2025-08-07 00:08:22,904 - INFO -   raw_cls_pca dataset shape: X=(54, 5), y=(54,)
+2025-08-07 00:08:22,907 - INFO -   Saved PCA dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_raw_cls_pca_20250807.parquet
+2025-08-07 00:08:22,907 - INFO - Creating dataset for filtered_mean_pca
+2025-08-07 00:08:22,908 - INFO -   filtered_mean_pca dataset shape: X=(54, 5), y=(54,)
+2025-08-07 00:08:22,912 - INFO -   Saved PCA dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_filtered_mean_pca_20250807.parquet
+2025-08-07 00:08:22,913 - INFO - Creating dataset for filtered_cls_pca
+2025-08-07 00:08:22,914 - INFO -   filtered_cls_pca dataset shape: X=(54, 5), y=(54,)
+2025-08-07 00:08:22,918 - INFO -   Saved PCA dataset to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_regression_dataset_filtered_cls_pca_20250807.parquet
+2025-08-07 00:08:22,918 - INFO - Regression datasets created successfully
+2025-08-07 00:08:22,919 - INFO - Starting model training and evaluation
+2025-08-07 00:08:22,919 - INFO - Training model for raw_mean
+2025-08-07 00:08:22,919 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:08:22,919 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:08:22,920 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:08:22,930 - INFO -   raw_mean Results:
+2025-08-07 00:08:22,931 - INFO -     Train - MSE: 0.000867, R²: 0.1717, Corr: 0.4886
+2025-08-07 00:08:22,931 - INFO -     Test  - MSE: 0.000138, R²: -0.2433, Corr: -0.1212
+2025-08-07 00:08:22,933 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_raw_mean_20250807.pkl
+2025-08-07 00:08:22,933 - INFO - Training model for raw_cls
+2025-08-07 00:08:22,933 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:08:22,935 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:08:22,935 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:08:22,942 - INFO -   raw_cls Results:
+2025-08-07 00:08:22,942 - INFO -     Train - MSE: 0.000686, R²: 0.3453, Corr: 0.6128
+2025-08-07 00:08:22,943 - INFO -     Test  - MSE: 0.000189, R²: -0.7052, Corr: -0.1992
+2025-08-07 00:08:22,944 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_raw_cls_20250807.pkl
+2025-08-07 00:08:22,944 - INFO - Training model for filtered_mean
+2025-08-07 00:08:22,944 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:08:22,944 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:08:22,945 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:08:22,951 - INFO -   filtered_mean Results:
+2025-08-07 00:08:22,951 - INFO -     Train - MSE: 0.000872, R²: 0.1672, Corr: 0.4794
+2025-08-07 00:08:22,952 - INFO -     Test  - MSE: 0.000150, R²: -0.3535, Corr: -0.2029
+2025-08-07 00:08:22,953 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_filtered_mean_20250807.pkl
+2025-08-07 00:08:22,954 - INFO - Training model for filtered_cls
+2025-08-07 00:08:22,954 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:08:22,955 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:08:22,955 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:08:22,962 - INFO -   filtered_cls Results:
+2025-08-07 00:08:22,962 - INFO -     Train - MSE: 0.000690, R²: 0.3413, Corr: 0.6105
+2025-08-07 00:08:22,963 - INFO -     Test  - MSE: 0.000205, R²: -0.8470, Corr: -0.2546
+2025-08-07 00:08:22,964 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_filtered_cls_20250807.pkl
+2025-08-07 00:08:22,964 - INFO - Training model for raw_mean_pca
+2025-08-07 00:08:22,964 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:08:22,965 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:08:22,965 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:08:22,969 - INFO -   raw_mean_pca Results:
+2025-08-07 00:08:22,970 - INFO -     Train - MSE: 0.000964, R²: 0.0798, Corr: 0.3000
+2025-08-07 00:08:22,970 - INFO -     Test  - MSE: 0.000131, R²: -0.1829, Corr: -0.0134
+2025-08-07 00:08:22,971 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_raw_mean_pca_20250807.pkl
+2025-08-07 00:08:22,972 - INFO - Training model for raw_cls_pca
+2025-08-07 00:08:22,972 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:08:22,972 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:08:22,972 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:08:22,977 - INFO -   raw_cls_pca Results:
+2025-08-07 00:08:22,977 - INFO -     Train - MSE: 0.000935, R²: 0.1072, Corr: 0.3286
+2025-08-07 00:08:22,977 - INFO -     Test  - MSE: 0.000141, R²: -0.2774, Corr: 0.0602
+2025-08-07 00:08:22,979 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_raw_cls_pca_20250807.pkl
+2025-08-07 00:08:22,979 - INFO - Training model for filtered_mean_pca
+2025-08-07 00:08:22,979 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:08:22,980 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:08:22,980 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:08:22,987 - INFO -   filtered_mean_pca Results:
+2025-08-07 00:08:22,988 - INFO -     Train - MSE: 0.000956, R²: 0.0868, Corr: 0.3140
+2025-08-07 00:08:22,988 - INFO -     Test  - MSE: 0.000150, R²: -0.3515, Corr: -0.1454
+2025-08-07 00:08:22,990 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_filtered_mean_pca_20250807.pkl
+2025-08-07 00:08:22,990 - INFO - Training model for filtered_cls_pca
+2025-08-07 00:08:22,990 - INFO -   Train size: 37, Test size: 17
+2025-08-07 00:08:22,991 - INFO -   Train period: 2025-02-10 to 2025-06-06
+2025-08-07 00:08:22,991 - INFO -   Test period: 2025-06-11 to 2025-08-04
+2025-08-07 00:08:22,997 - INFO -   filtered_cls_pca Results:
+2025-08-07 00:08:22,998 - INFO -     Train - MSE: 0.000946, R²: 0.0962, Corr: 0.3114
+2025-08-07 00:08:22,998 - INFO -     Test  - MSE: 0.000182, R²: -0.6467, Corr: -0.1172
+2025-08-07 00:08:22,999 - INFO -     Saved model to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_model_filtered_cls_pca_20250807.pkl
+2025-08-07 00:08:23,000 - INFO - Saved results summary to: C:\Users\Admin\Desktop\FinHubPortfolio\data\AAPL_results_20250807.json
+2025-08-07 00:08:23,000 - INFO - ==================================================
+2025-08-07 00:08:23,001 - INFO - MODEL EVALUATION SUMMARY
+2025-08-07 00:08:23,001 - INFO - ==================================================
+2025-08-07 00:08:23,001 - INFO - Best performing configuration: raw_mean_pca
+2025-08-07 00:08:23,002 - INFO - Best test R²: -0.1829
+2025-08-07 00:08:23,002 - INFO - Best test correlation: -0.0134
+2025-08-07 00:08:23,002 - INFO - ==================================================
+2025-08-07 00:08:23,002 - INFO - Creating prediction plots
+2025-08-07 00:08:24,076 - INFO - Saved prediction plot to: C:\Users\Admin\Desktop\FinHubPortfolio\figures\AAPL_predictions_20250807.svg
+2025-08-07 00:08:24,678 - INFO - Saved detailed prediction plot to: C:\Users\Admin\Desktop\FinHubPortfolio\figures\AAPL_best_model_predictions_20250807.svg
+2025-08-07 00:08:24,679 - INFO - ============================================================
+2025-08-07 00:08:24,679 - INFO - FEATURE ENGINEERING AND MODELING PIPELINE COMPLETED
+2025-08-07 00:08:24,679 - INFO - ============================================================
+2025-08-07 00:08:24,684 - INFO -    Configurations tested: 8
+2025-08-07 00:08:24,685 - INFO -    Best configuration: raw_mean_pca
+2025-08-07 00:08:24,685 - INFO -    Best test R²: -0.1829
+2025-08-07 00:08:24,685 - INFO -    Best test correlation: -0.0134
+2025-08-07 00:08:24,685 - INFO - 
+PHASE 4: PIPELINE SUMMARY & ANALYSIS
+2025-08-07 00:08:24,685 - INFO - ------------------------------------------
+2025-08-07 00:08:24,686 - INFO - ================================================================================
+2025-08-07 00:08:24,686 - INFO - COMPREHENSIVE PIPELINE SUMMARY
+2025-08-07 00:08:24,686 - INFO - ================================================================================
+2025-08-07 00:08:24,686 - INFO - 1. DATA COLLECTION SUMMARY:
+2025-08-07 00:08:24,686 - INFO -    Ticker: AAPL
+2025-08-07 00:08:24,687 - INFO -    Date range: 2025-02-08 00:08:08.320036 to 2025-08-07 00:08:08.320036
+2025-08-07 00:08:24,687 - INFO -    Articles scraped: 80
+2025-08-07 00:08:24,687 - INFO -    Price data points: 128
+2025-08-07 00:08:24,688 - INFO -    Return calculations: 127
+2025-08-07 00:08:24,688 - INFO - 
+2. TEXT PROCESSING SUMMARY:
+2025-08-07 00:08:24,689 - INFO -    raw_mean: (80, 768)
+2025-08-07 00:08:24,689 - INFO -    raw_cls: (80, 768)
+2025-08-07 00:08:24,689 - INFO -    filtered_mean: (80, 768)
+2025-08-07 00:08:24,690 - INFO -    filtered_cls: (80, 768)
+2025-08-07 00:08:24,690 - INFO - 
+3. MODEL EVALUATION SUMMARY:
+2025-08-07 00:08:24,690 - INFO -    Total configurations tested: 8
+2025-08-07 00:08:24,690 - INFO -    Performance metrics (Test Set):
+2025-08-07 00:08:24,691 - INFO -      raw_mean_pca        : R²=-0.1829, MSE=0.000131, Corr=-0.0134
+2025-08-07 00:08:24,691 - INFO -      raw_mean            : R²=-0.2433, MSE=0.000138, Corr=-0.1212
+2025-08-07 00:08:24,691 - INFO -      raw_cls_pca         : R²=-0.2774, MSE=0.000141, Corr= 0.0602
+2025-08-07 00:08:24,691 - INFO -      filtered_mean_pca   : R²=-0.3515, MSE=0.000150, Corr=-0.1454
+2025-08-07 00:08:24,691 - INFO -      filtered_mean       : R²=-0.3535, MSE=0.000150, Corr=-0.2029
+2025-08-07 00:08:24,692 - INFO -      filtered_cls_pca    : R²=-0.6467, MSE=0.000182, Corr=-0.1172
+2025-08-07 00:08:24,692 - INFO -      raw_cls             : R²=-0.7052, MSE=0.000189, Corr=-0.1992
+2025-08-07 00:08:24,692 - INFO -      filtered_cls        : R²=-0.8470, MSE=0.000205, Corr=-0.2546
+2025-08-07 00:08:24,695 - INFO -       Test R²: -0.1829
+2025-08-07 00:08:24,695 - INFO -       Test MSE: 0.000131
+2025-08-07 00:08:24,696 - INFO -       Test Correlation: -0.0134
+2025-08-07 00:08:24,705 - INFO - 
+4. FILE GENERATION SUMMARY:
+2025-08-07 00:08:24,707 - INFO -    Embedding files (.npy): 12
+2025-08-07 00:08:24,708 - INFO -    PCA model files (.pkl): 12
+2025-08-07 00:08:24,708 - INFO -    Dataset files (.parquet): 9
+2025-08-07 00:08:24,708 - INFO -    Results files (.json): 3
+2025-08-07 00:08:24,709 - INFO -    Plot files (.svg): 3
+2025-08-07 00:08:24,709 - INFO -    CSV files: 4
+2025-08-07 00:08:24,712 - INFO - 
+5. RECOMMENDATIONS FOR FURTHER ANALYSIS:
+2025-08-07 00:08:24,727 - INFO - 
+6. DATA QUALITY ASSESSMENT:
+2025-08-07 00:08:24,730 - INFO -    Article-Return date overlap: 54/80 (67.5%)
+2025-08-07 00:08:24,733 - INFO - 
+7. LIMITATIONS AND CAVEATS:
+2025-08-07 00:08:24,751 - INFO - ================================================================================
+2025-08-07 00:08:24,752 - INFO - PIPELINE SUMMARY COMPLETED
+2025-08-07 00:08:24,752 - INFO - ================================================================================
+2025-08-07 00:08:24,760 - INFO - 
+================================================================================
+2025-08-07 00:08:24,764 - INFO - ================================================================================

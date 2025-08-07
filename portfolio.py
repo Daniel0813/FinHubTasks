@@ -75,19 +75,22 @@ def compute_equal_weighted_returns(returns):
 
 # Value-weighted: weights based on price at previous month
 def compute_value_weighted_returns(returns, data):
+    # Filter returns to only include stock returns (exclude portfolio returns if they exist)
+    ret_tickers = [col for col in returns.columns if col.startswith("ret_") and col not in ['ret_ew', 'ret_vw']]
+    returns_only = returns[ret_tickers]
     
     # create a DataFrame with the lagged prices (previous month prices)
     lagged_prices = data.shift(1)
 
     # divide each stock price by total of stock prices for that month to get corresponding weights
     # for this dataframe, sum of the rows equals 1
-    vw_weights = lagged_prices.div(lagged_prices.sum(axis=1), axis=0).reindex(returns.index)
+    vw_weights = lagged_prices.div(lagged_prices.sum(axis=1), axis=0).reindex(returns_only.index)
 
     # calculate vw_return per month: multiplies each stock's return by its weight (row-wise), then sums
     # element wise multiplication of two matrices with dimension (n_months, n_stocks), result is n_months
-    ret_vw = (returns.values * vw_weights.values).sum(axis=1)
+    ret_vw = (returns_only.values * vw_weights.values).sum(axis=1)
     # convert ret_vw to a pandas Series with the same index as returns
-    ret_vw = pd.Series(ret_vw, index=returns.index)
+    ret_vw = pd.Series(ret_vw, index=returns_only.index)
 
     return ret_vw
 
@@ -159,7 +162,7 @@ def main(use_custom_monthly=False):
     # compute monthly simple returns, equal-weighted returns, and value-weighted returns
     returns = compute_monthly_returns(data, TICKERS)
     ret_ew = compute_equal_weighted_returns(returns)
-    ret_vw = compute_value_weighted_returns(data, returns)
+    ret_vw = compute_value_weighted_returns(returns, data)
 
     # combine returns and save
     returns['ret_ew'] = ret_ew
